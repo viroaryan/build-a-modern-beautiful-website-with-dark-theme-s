@@ -1,0 +1,136 @@
+```css
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #0a0a0f;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0a0a0f;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.glassmorphic-card {
+    background: linear-gradient(145deg, #0a0a0f, #0a0a0f);
+    box-shadow:  10px 10px 20px #000000, 
+                 -10px -10px 20px #1a1a1f;
+    padding: 2em;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.glassmorphic-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: linear-gradient(145deg, #0a0a0f, #0a0a0f);
+    box-shadow:  10px 10px 20px #000000, 
+                 -10px -10px 20px #1a1a1f;
+    padding: 1em;
+    border-radius: 10px;
+    width: 30%;
+    margin: 1em;
+}
+
+.call-to-action {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.call-to-action:hover {
+    background-color: #3e8e41;
+}
+
+.bio {
+    background: linear-gradient(145deg, #0a0a0f, #0a0a0f);
+    box-shadow:  10px 10px 20px #000000, 
+                 -10px -10px 20px #1a1a1f;
+    padding: 2em;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.skills {
+    background: linear-gradient(145deg, #0a0a0f, #0a0a0f);
+    box-shadow:  10px 10px 20px #000000, 
+                 -10px -10px 20px #1a1a1f;
+    padding: 2em;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.contact-form {
+    background: linear-gradient(145deg, #0a0a0f, #0a0a0f);
+    box-shadow:  10px 10px 20px #000000, 
+                 -10px -10px 20px #1a1a1f;
+    padding: 2em;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.map {
+    background: linear-gradient(145deg, #0a0a0f, #0a0a0f);
+    box-shadow:  10px 10px 20px #000000, 
+                 -10px -10px 20px #1a1a1f;
+    padding: 2em;
+    border-radius: 10px;
+    width: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+    .glassmorphic-card {
+        width: 100%;
+    }
+    .card {
+        width: 100%;
+    }
+    .bio {
+        width: 100%;
+    }
+    .skills {
+        width: 100%;
+    }
+    .contact-form {
+        width: 100%;
+    }
+    .map {
+        width: 100%;
+    }
+}
